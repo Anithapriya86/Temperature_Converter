@@ -1,7 +1,7 @@
 const celsiusEl = document.getElementById("celsius");
 const fahrenheitEl = document.getElementById("fahrenheit");
 const kelvinEl = document.getElementById("kelvin");
-
+// Finding the temperature
 function computeTemp(event) {
   const currentValue = +event.target.value;
 
